@@ -1,7 +1,7 @@
-# AdSEE: Data-Driven Advertisement Style Editing and Attractiveness Enhancement
+# AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness
 
 ## Description
-Github Repository for paper "AdSEE: Data-Driven Advertisement Style Editing and Attractiveness Enhancement". This repo contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
+Github Repository for paper "AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness". This repo contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
 
 ## Environment Setup
 * To run this code, we use a Anaconda Python Virtual Environment to manage and install the dependencies. Please install it from <https://www.anaconda.com/>
