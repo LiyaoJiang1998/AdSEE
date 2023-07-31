@@ -1,7 +1,14 @@
-# AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness
+# AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness (KDD 2023)
+| [Paper](https://raw.githubusercontent.com/LiyaoJiang1998/AdSEE/main/adsee_kdd2023.pdf) |
+
+<details>
+<summary><strong>Click here to show the abstract </strong></summary>
+Online advertisements are important elements in e-commerce sites, social media platforms, and search engines. With the increasing popularity of mobile browsing, many online ads are displayed with visual information in the form of a cover image in addition to text descriptions to grab the attention of users. Various recent studies have focused on predicting the click rates of online advertisements aware of visual features or composing optimal advertisement elements to enhance visibility. In this paper, we propose Advertisement Style Editing and Attractiveness Enhancement (AdSEE), which explores whether semantic editing to ads images can affect or alter the popularity of online advertisements. We introduce StyleGAN-based facial semantic editing and inversion to ads images and train a click rate predictor attributing GAN-based face latent representations in addition to traditional visual and textual features to click rates. Through a large collected dataset named QQ-AD, containing 20,527 online ads, we perform extensive offline tests to study how different semantic directions and their edit coefficients may impact click rates. We further design a Genetic Advertisement Editor to efficiently search for the optimal edit directions and intensity given an input ad cover image to enhance its projected click rates. Online A/B tests performed over a period of 5 days have verified the increased click-through rates of AdSEE-edited samples as compared to a control group of original ads, verifying the relation between image styles and ad popularity. We open source the code for AdSEE research at https://github.com/LiyaoJiang1998/adsee.
+</details>
+</details>
 
 ## Description
-Github Repository for paper "AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness". This repo contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
+This repo supports the KDD '23 paper ["AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness"](https://raw.githubusercontent.com/LiyaoJiang1998/AdSEE/main/adsee_kdd2023.pdf). It contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
 
 ## Environment Setup
 * To run this code, we use a Anaconda Python Virtual Environment to manage and install the dependencies. Please install it from <https://www.anaconda.com/>
@@ -138,3 +145,18 @@ We want to acknowledge that our implementation adopt code from the following rep
 * [christiansafka/img2vec](https://github.com/christiansafka/img2vec)
 * [jina-ai/clip-as-service](https://github.com/jina-ai/clip-as-service/)
 * [google-research/bert](https://github.com/google-research/bert)
+
+## Citation
+
+If you find this research useful, please cite our paper.
+```
+@InProceedings{jiang2023adsee,
+  author       = {Liyao Jiang and Chenglin Li and Haolan Chen and Xiaodong Gao and Xinwang Zhong and Yang Qiu and Shani Ye and Di Niu},
+  booktitle    = {Proceedings of the 29th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining},
+  title        = {{AdSEE}: Investigating the Impact of Image Style Editing on Advertisement Attractiveness},
+  year         = {2023},
+  month        = {aug},
+  publisher    = {{ACM}},
+  doi          = {10.1145/3580305.3599770},
+}
+```
