@@ -1,8 +1,8 @@
 # AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness ([KDD 2023](https://doi.org/10.1145/3580305.3599770))
-| [Paper](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-paper.pdf)
+| [Paper](https://liyaojiang1998.github.io/AdSEE/assets/kdd23-adsee-paper.pdf)
 | [Code](https://github.com/LiyaoJiang1998/AdSEE)
-| [Slides](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-slides.pdf)
-| [Poster](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-poster.pdf) |
+| [Slides](https://liyaojiang1998.github.io/AdSEE/assets/kdd23-adsee-slides.pdf)
+| [Poster](https://liyaojiang1998.github.io/AdSEE/assets/kdd23-adsee-poster.pdf) |
 
 <details>
 <summary><strong>Click here to show the abstract </strong></summary>
@@ -11,7 +11,7 @@ Online advertisements are important elements in e-commerce sites, social media p
 </details>
 
 ## Description
-This repo supports the KDD '23 paper ["AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness"](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-paper.pdf). It contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
+This repo supports the KDD '23 paper ["AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness"](https://liyaojiang1998.github.io/AdSEE/assets/kdd23-adsee-paper.pdf). It contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
 
 ## Environment Setup
 * To run this code, we use a Anaconda Python Virtual Environment to manage and install the dependencies. Please install it from <https://www.anaconda.com/>
