@@ -116,7 +116,7 @@ Any pull requests or issues are welcome.
 Please consider citing our papers in your publications if the project helps your research. BibTeX reference is as follows.
 ```
 @inproceedings{wang2020solo,
-  title     =  {{SOLO}: Segmenting Objects by Locations},
+  title     =  {SOLO: Segmenting Objects by Locations},
   author    =  {Wang, Xinlong and Kong, Tao and Shen, Chunhua and Jiang, Yuning and Li, Lei},
   booktitle =  {Proc. Eur. Conf. Computer Vision (ECCV)},
   year      =  {2020}

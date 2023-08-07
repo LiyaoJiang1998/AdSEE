@@ -4,7 +4,7 @@
 
 ```
 @inproceedings{zhang2019freeanchor,
-  title   =  {{FreeAnchor}: Learning to Match Anchors for Visual Object Detection},
+  title   =  {FreeAnchor: Learning to Match Anchors for Visual Object Detection},
   author  =  {Zhang, Xiaosong and Wan, Fang and Liu, Chang and Ji, Rongrong and Ye, Qixiang},
   booktitle =  {Neural Information Processing Systems},
   year    =  {2019}
