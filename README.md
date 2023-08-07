@@ -1,5 +1,8 @@
-# AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness (KDD 2023)
-| [Paper](https://raw.githubusercontent.com/LiyaoJiang1998/AdSEE/main/adsee_kdd2023.pdf) |
+# AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness ([KDD 2023](https://doi.org/10.1145/3580305.3599770))
+| [Paper](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-paper.pdf)
+| [Code](https://github.com/LiyaoJiang1998/AdSEE)
+| [Slides](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-slides.pdf)
+| [Poster](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-poster.pdf) |
 
 <details>
 <summary><strong>Click here to show the abstract </strong></summary>
@@ -8,7 +11,7 @@ Online advertisements are important elements in e-commerce sites, social media p
 </details>
 
 ## Description
-This repo supports the KDD '23 paper ["AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness"](https://raw.githubusercontent.com/LiyaoJiang1998/AdSEE/main/adsee_kdd2023.pdf). It contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
+This repo supports the KDD '23 paper ["AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness"](https://LiyaoJiang1998.github.io/AdSEE/assets/kdd23-adsee-paper.pdf). It contains the official implementaion for the AdSEE framework inlcuding a Click Rate Predictor (CRP) and a Genetic Advertisement Editor (GADE).
 
 ## Environment Setup
 * To run this code, we use a Anaconda Python Virtual Environment to manage and install the dependencies. Please install it from <https://www.anaconda.com/>
@@ -152,11 +155,11 @@ If you find this research useful, please cite our paper.
 ```
 @InProceedings{jiang2023adsee,
   author       = {Liyao Jiang and Chenglin Li and Haolan Chen and Xiaodong Gao and Xinwang Zhong and Yang Qiu and Shani Ye and Di Niu},
-  booktitle    = {Proceedings of the 29th {ACM} {SIGKDD} Conference on Knowledge Discovery and Data Mining},
-  title        = {{AdSEE}: Investigating the Impact of Image Style Editing on Advertisement Attractiveness},
+  booktitle    = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  title        = {AdSEE: Investigating the Impact of Image Style Editing on Advertisement Attractiveness},
   year         = {2023},
   month        = {aug},
-  publisher    = {{ACM}},
+  publisher    = {ACM},
   doi          = {10.1145/3580305.3599770},
 }
 ```
